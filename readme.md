@@ -1,28 +1,52 @@
 # @stackline/vfile-message
 
-Independent maintenance fork of `vfile-message@3.1.4`, preserving its API and published type declarations.
+> vfile utility to create a virtual message.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/vfile-message.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/vfile-message)
+[![license](https://img.shields.io/npm/l/@stackline/vfile-message.svg?style=flat-square)](https://github.com/alexandroit/stackline-vfile-message)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-vfile-message-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-vfile-message)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/vfile-message/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/vfile-message/)** | **[npm](https://www.npmjs.com/package/@stackline/vfile-message)** | **[Issues](https://github.com/alexandroit/stackline-vfile-message/issues)** | **[Repository](https://github.com/alexandroit/stackline-vfile-message)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/vfile-message` is the Stackline-maintained distribution of `vfile-message@3.1.4`. It is an independent continuation of [vfile-message](https://github.com/vfile/vfile-message); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/vfile-message@1.0.1` |
+| API target | `vfile-message@3.1.4` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `@types/unist, unist-util-stringify-position` |
+
+## Installation
+
+```bash
 npm install @stackline/vfile-message
-# Keep existing imports:
-npm install vfile-message@npm:@stackline/vfile-message@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-vfile-message/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install vfile-message@npm:@stackline/vfile-message
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# vfile-message
+### vfile-message
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 Create [vfile][] messages.
 
@@ -56,7 +80,7 @@ This package is [ESM only][esm].
 In Node.js (version 14.14+ and 16.0+), install with [npm][]:
 
 ```sh
-npm install vfile-message
+npm install @stackline/vfile-message
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -76,7 +100,7 @@ In browsers with [`esm.sh`][esmsh]:
 ## Use
 
 ```js
-import {VFileMessage} from 'vfile-message'
+import {VFileMessage} from '@stackline/vfile-message'
 
 const message = new VFileMessage(
   'Unexpected unknown word `braavo`, did you mean `bravo`?',
@@ -197,7 +221,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/vfile/vfile-message/workflows/main/badge.svg
 
@@ -258,3 +282,22 @@ abide by its terms.
 [util]: https://github.com/vfile/vfile#utilities
 
 [api-vfile-message]: #vfilemessagereason-place-origin
+
+## Credits and original authors
+
+- Original project: [vfile-message](https://github.com/vfile/vfile-message).
+- Titus Wormer.
+- Copyright (c) 2017 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
