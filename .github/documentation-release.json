@@ -4,7 +4,7 @@
     {
       "name": "@stackline/vfile-message",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -23,8 +23,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/vfile-message/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/vfile-message/-/vfile-message-1.0.0.tgz",
       "baselineIntegrity": "sha512-B/GjVZMs5KkuOxWHZsKQNwa3UelzJwlPk5WjT81f1KryJ3UnmvCBxMlFnRYE536ibc4Bszczp+RPnjzjKQ/gXA==",
-      "expectedSha512": "6b1bcf796c09f14851b4a9b78ec55ef5d58b98afb208f3c9028497ad6b3e794d049674a4cc35afb3900cc31f9ce59ed99a10c77b2cbeb8b973dddd2285b7e96b",
-      "tag": "docs-stackline-vfile-message-v1.0.1"
+      "expectedSha512": "707d7d374eda9f677a65a6fadc2ddc5a47767f67f09e4f9ad11ac1a0a7d7dfff0eccfc05a030212395ed7616654b14be9407b9e1e5b7256dc886aca4f3a004d4",
+      "tag": "docs-stackline-vfile-message-v1.0.2"
     }
   ]
 }
