@@ -1,0 +1,31 @@
+{
+  "upstream": "vfile-message",
+  "fork": "@stackline/vfile-message",
+  "repository": "alexandroit/stackline-vfile-message",
+  "upstreamRepository": "vfile/vfile-message",
+  "upstreamVersion": "3.1.4",
+  "sourceCommit": "a174d9fc7cdd7f4ce3d48ceeecb01a02e18ef691",
+  "upstreamIntegrity": "sha512-fa0Z6P8HUrQN4BZaX05SIVXic+7kE3b05PWAtPuYP9QLHsLKYR7/AlLW3NtOrpXRLeawpDLMsVkmk5DG0NXgWw==",
+  "status": "source-ready",
+  "files": {
+    "license": "d8fc337aaf98fc7a0f5498edc18b47a9df8cdfcc1a0f013519105905722c7a4c",
+    "index.js": "bb8aba28c9589792407d6ae0c1a6568f3ddc40be20da25bc1939e2c9d76436bb",
+    "lib/index.js": "71593f6161de079af07f15f26f52062a5f42545d8bee5395b3ed4586f47a4781",
+    "package.json": "70a00db33c21c6a2446d6d4072f6a5f1bb8494d1a389e2bc584c677d16bd5a12",
+    "readme.md": "8230e9a9cdcfeef57ed29c6563d87c59f33bc46d283a475f67a5b5c665df3c75",
+    "index.d.ts": "bb8aba28c9589792407d6ae0c1a6568f3ddc40be20da25bc1939e2c9d76436bb",
+    "lib/index.d.ts": "e0c7d85789b8811c90a8d21e25021349e8a756a256ae42d9e816ecd392f00f71"
+  },
+  "allowedRuntimeChanges": [
+    "lib/index.js"
+  ],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist.",
+  "issueFixes": [
+    {
+      "url": "https://github.com/vfile/vfile-message/issues/22",
+      "reproducedOnBase": "3.1.4",
+      "change": "Define own stack prototype default to support inherited non-writable or getter-only Error.prototype.stack."
+    }
+  ]
+}
